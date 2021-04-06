@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graficas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2 class="h2-title">Learn English</h2>
+    <h2 class="h2-title">How much did I study this week?</h2>
+    <div class="graphic">
+        <div id="axi-y">
+            <div><span>5hrs</span></div>
+            <div><span>4hrs</span></div>
+            <div><span>3hrs</span></div>
+            <div><span>2hrs</span></div>
+            <div><span>1hrs</span>    </div>            
+            <div><span>0hrs</span></div>
+        </div>
+        <div id="axi-x">
+            <span>Sunday</span>
+            <span>Monday</span>
+            <span>Tuesday</span>
+            <span>Wednesday</span>
+            <span>Thursday</span>
+            <span>Friday</span>
+            <span>Saturday</span>
+        </div>
+        <div id="div-bar">
+            <div class="div-bar-chart"><span></span></div>
+            <div class="div-bar-chart"><span></span></div>
+            <div class="div-bar-chart"><span></span></div>
+            <div class="div-bar-chart"><span></span></div>
+            <div class="div-bar-chart"><span></span></div>
+            <div class="div-bar-chart"><span></span></div>
+            <div class="div-bar-chart"><span></span></div>
+        </div>
+    </div>
+    
+    <div class="div-data-json">
+        <button id="butm-val-random" class="butm-val-set">Generate random values</button>
+        <form id="form-set-val-json" action="">
+            <textarea name="" id="textarea-payload" cols="30" rows="10">
+{ 
+    "sunday": { "value": 12, "color": "#856C8B" }, 
+    "monday": { "value": 235, "color": "#E2979C" }, 
+    "tuesday": { "value": 300, "color": "#17706E" }, 
+    "wednesday": { "value": 200, "color": "#FFA931" },
+    "thursday": { "value": 233, "color": "#F3C623" }, 
+    "friday": { "value": 120, "color": "#438A5E" },
+    "saturday": { "value": 60, "color": "#12CAD6" }
+}
+            </textarea>
+            <input class="butm-val-set" type="submit" value="Set Value JSON">
+        </form>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
