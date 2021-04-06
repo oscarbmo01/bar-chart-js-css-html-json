@@ -1,6 +1,6 @@
-# Ports usage, PIC16F84A, pic-as compiler
+# Dynamic Bar Chart, Vanilla Javascript 
 
-<img src="img/anime.png" width="20%" title="">
+<img src="favicon.ico" width="20%" title="">
 
 ## About The Project
 
